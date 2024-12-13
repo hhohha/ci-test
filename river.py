@@ -1,7 +1,6 @@
 from node import Node
 from constants import *
 
-nodes_count = 0
 
 def main() -> None:
     qopen: List[Node] = []
@@ -22,7 +21,6 @@ def main() -> None:
                 qopen.append(new_node)
 
     print(f'found solutions: {solutions}')
-    print(f'nodes count: {nodes_count}')
 
 if __name__ == '__main__':
     main()
