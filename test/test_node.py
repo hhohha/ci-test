@@ -1,3 +1,9 @@
+import sys
+from pathlib import Path
+
+path = Path(__file__).parent.parent
+sys.path.append(str(path))
+
 from constants import *
 from node import Node
 
